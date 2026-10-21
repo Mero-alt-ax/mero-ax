@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #173F35;
+  --primary-light: #4F7D62;
+  --background: #F7F8F5;
+  --surface: #FFFFFF;
+  --accent: #DCEBE8;
+  --text: #252B29;
+  --text-muted: #69716C;
+  --border: #E5E9E5;
+  --radius: 14px;
+  --container-width: 1280px;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e9e5;
+}
+
+/* Custom utility classes aligned with design tokens */
+.bg-theme-bg {
+  background-color: var(--background);
+}
+
+.bg-theme-surface {
+  background-color: var(--surface);
+}
+
+.bg-theme-primary {
+  background-color: var(--primary);
+}
+
+.bg-theme-primary-light {
+  background-color: var(--primary-light);
+}
+
+.bg-theme-accent {
+  background-color: var(--accent);
+}
+
+.text-theme-primary {
+  color: var(--primary);
+}
+
+.text-theme-primary-light {
+  color: var(--primary-light);
+}
+
+.text-theme-dark {
+  color: var(--text);
+}
+
+.text-theme-muted {
+  color: var(--text-muted);
+}
+
+.border-theme {
+  border-color: var(--border);
+}
+
+.rounded-theme {
+  border-radius: var(--radius);
+}
+
+.container-custom {
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}

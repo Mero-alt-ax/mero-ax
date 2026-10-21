@@ -1,0 +1,6 @@
+{
+  "name": "Gartenteichdiscount.de — Alles für deinen Gartenteich",
+  "description": "Spezialist für Gartenteich, Koifutter, Teichpflege und Teichtechnik. Premium-Produkte für klares Wasser und vitale Koi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
